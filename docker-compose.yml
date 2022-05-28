@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: lgpd
+      MYSQL_DATABASE: lgpd
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 123456
+    ports:
+      - "3306:3306"
